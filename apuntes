@@ -1,0 +1,20 @@
+
+
+
+// fetch(URL)
+// .then(res => res.json()) // las promesas podemos resolverlas con el metodo then, convertir esa rta a algo que JS pueda entender , por eso usamos el json y lo convertimos en objeto
+// // aqui solo estamos convirtiendo esa info en algo que js pueda entender 
+// .then (data => {
+//     const img = document.querySelector('img')// manipulacion del DOM - aqui estamos trayendo esa propiedad dentro de mi HTML 
+//     img.src = data[0].url;
+//      // esto es la url del API 
+// }); // de la segunda promesa que es json, ya con el objeto entonces ahora si tenemos la data
+// // esa data que estamos trayendo es justo la que nos carga la URL del api 
+
+
+// fetch(URL)
+// .then(res => res.json()) 
+// .then (data => {
+//     const img = document.querySelector('img')
+//     img.src = data[0].url; 
+// }); 
